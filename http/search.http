@@ -1,0 +1,13 @@
+POST http://localhost:8080/api/search
+Content-Type: application/json
+
+{
+  "date": "2026-03-10",
+  "time": "19:00:00",
+  "partySize": 2,
+  "zone": "HALL",
+  "windowSeat": false,
+  "quiet": false,
+  "accessible": false,
+  "nearKidsArea": false
+}

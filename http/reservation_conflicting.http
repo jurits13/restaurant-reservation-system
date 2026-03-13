@@ -1,0 +1,10 @@
+POST http://localhost:8080/api/reservations
+Content-Type: application/json
+
+{
+  "customerName": "Charlie",
+  "date": "2026-03-10",
+  "time": "19:00:00",
+  "partySize": 2,
+  "tableId": 1
+}
