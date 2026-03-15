@@ -60,7 +60,7 @@ public class DataSeeder implements CommandLineRunner {
 
         List<RestaurantTable> savedTables = restaurantTableRepository.findAll();
 
-        Random random = new Random(42);
+        Random random = new Random();
         LocalDate today = LocalDate.now();
 
         for (RestaurantTable table : savedTables) {
